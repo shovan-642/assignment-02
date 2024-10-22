@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 
-
-
+body{
+  margin: 0;
+}
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
   }
+.miama-font{
+  font-family: 'Miama', sans-serif;
+}
+
+
 
 .color-bg-01{
   background-color: #000000;
@@ -31,10 +38,47 @@
   display: flex;
 }
 
+.paragraph-style-01{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: rgba(255,255, 255,0.5);
+}
+
+.text-align-left{
+  text-align: left;
+}
+.text-align-center{
+  text-align: center;
+}
+
+.btn-primary{
+  background: rgb(230,83,60);
+  padding: 16px 40px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 42px;
+  border: none;
+  color: #ffffff;
+}
+
+.btn-download{
+  background:none;
+  padding: 16px 40px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 42px;
+  border: 1px solid rgb(255,255,255);
+  color: #ffffff;
+}
+header{
+  background: linear-gradient(180.00deg, rgb(17,17,17),rgba(119,119,119,0) 100%);
+} 
+
 .navbar{
   justify-content: space-between;
   align-items: center;
-  margin-top: 4rem;
+  padding-top: 4rem;
 }
 .logo{
   font-weight: 800;
@@ -62,4 +106,90 @@
 .nav-menu ul li a{
   text-decoration: none;
   color: white;
+  font-size: 1.1rem;
+}
+
+.banner-area{
+  gap: 10rem;
+}
+
+
+.banner-h3{
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 110%;
+  margin-top: 6rem;
+  margin-bottom: 1.5rem;
+}
+
+.shape{
+  font-size: 9rem;
+  font-weight: 400;
+}
+
+.btn-group{
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+
+.circle{
+  width: 2rem;
+  height: 2rem;
+  background: #E6533C;
+  border-radius: 500px;
+  border: none;
+}
+
+.box-01 h4{
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: rgba(255,255, 255,0.65);
+  margin: 0;
+}
+
+.banner-image{
+  width: 100%;
+}
+.box-01, .box-02{
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48,48,48,0.54);
+  padding: 20px 23px;
+}
+
+.box-01{
+  width: 8.5rem;
+  margin-top: -423px;
+  margin-left: 200px;
+}
+
+.box-02{
+  align-items: center;
+  gap: 8px;
+  width: 10rem;
+  margin-top: 108px;
+  margin-left: -100px;
+}
+
+.box-01 p{
+  font-size: 0.8rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+.box-02 h4{
+  margin: 0;
+  font-size: 1.5rem;
+  color: #FAFAF9;
+  font-weight: 900;
+}
+
+.box-02 p{
+  color: rgba(239,237, 232,0.65);
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+
+
 }
