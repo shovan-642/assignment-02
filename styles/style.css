@@ -7,6 +7,11 @@ h1,h2,h3,h4,h5,h6, p{
 body{
   margin: 0;
 }
+
+section{
+  margin-top: 5rem;
+}
+
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -22,6 +27,9 @@ body{
 .color-bg-01{
   background-color: #000000;
 
+}
+.color-bg-02{
+  background-color: rgba(255,255,255,0.1);
 }
 
 .color-01{
@@ -228,4 +236,110 @@ header{
 
 .single_habit>p{
   margin-top: 0.25rem;
+}
+.join-section{
+  justify-content: space-between;
+  border-radius: 1.25rem;
+  background: rgb(34,34,34);
+  padding: 2.5rem 2rem 2.5rem 3.375rem;
+
+}
+.join-text-btn{
+  width: 44%;
+}
+.join-text-btn p{
+  margin-bottom: 2rem;
+}
+.img-container{
+  width: 40%;
+  overflow: hidden;
+  border-radius: 18px
+}
+.join-img{
+  width: 100%;
+  transform: scale(3) translatey(38px) translateX(-45px);
+ 
+}
+
+.team-group{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  padding: 1rem;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.1);
+  margin-top: 3.5rem;
+  margin-bottom: 5.5rem;
+}
+
+.single-team{
+  width: 19rem;
+  height: 17rem;
+  position: relative;
+
+}
+
+.single-team img{
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+}
+
+.single-team h4{
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+}
+.single-team p{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+
+}
+
+footer{
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+.footer-container{
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr);
+  gap: 6rem;
+  margin-bottom: 5rem;
+}
+
+.footer-logo{
+  font-weight: 800;
+  font-size: 4rem;
+  font-style: italic;
+}
+.footer-menu{
+
+}
+
+.footer-menu h4{
+  font-weight: 700;
+  font-size: 2rem;
+
+}
+
+.footer-menu ul{
+  margin-left: 0;
+  padding-left: 0;
+}
+.footer-menu ul li{
+  list-style: none;
+  margin-bottom: 1rem;
+
+}
+.footer-menu ul li a {
+  text-decoration:none;
+  color: rgba(255,255,255,0.5);
+  font-weight: 400;
+  font-size: 1.2rem;
+
+}
+
+.line{
+  border: 2px solid rgba(255,255,255,0.1);
 }
