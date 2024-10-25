@@ -263,6 +263,8 @@ header{
 
 
 
+
+
 .calculator-header{
   margin-left: 12rem;
   margin-bottom: 5rem;
@@ -338,7 +340,6 @@ header{
 .input-5 {
 	grid-column: span 2;
 }
-
 
 
 
@@ -428,3 +429,10 @@ footer{
   border: 2px solid rgba(255,255,255,0.1);
 }
 
+.margin-top{
+  margin-top: 5rem;
+}
+
+.calculator-bg{
+  padding: 3rem 0;
+}
