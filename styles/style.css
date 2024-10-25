@@ -266,7 +266,7 @@ header{
 
 
 .calculator-header{
-  margin-left: 12rem;
+  margin-left: 22rem;
   margin-bottom: 5rem;
 }
 
@@ -289,7 +289,7 @@ header{
 .table>table th,td
 {
   border: 1px solid rgba(255,255,255,0.1);
-  padding: 1rem;
+  padding: 1rem 2rem;
 }
 .table>table th{
   text-align: left;
@@ -304,7 +304,7 @@ header{
 }
 
 .table>table td{
-  font-size: 0.80rem;
+  font-size: 1rem;
   font-weight: 400;
   color: rgba(255,255, 255,0.5);
 }
@@ -435,4 +435,63 @@ footer{
 
 .calculator-bg{
   padding: 3rem 0;
+}
+
+
+
+/* responsive design */
+
+@media screen and (max-width:576px) {
+  
+.width-73{
+  width: 90%;
+}
+.banner-area{
+  flex-direction: column;
+}
+.banner-image-area{
+  margin-left: 8rem;
+  margin-bottom: 5rem;
+}
+.habit_area{
+  grid-template-columns: repeat(1, 1fr);
+  gap: 3rem;
+}
+
+.join-section{
+  flex-direction: column;
+}
+.join-text-btn, .img-container{
+  width: 100%;
+}
+.join-img{
+  transform: none;
+}
+.join-text-btn>.btn-primary{
+  padding: 1.5rem 11rem;
+  margin-bottom: 3rem;
+}
+
+.calculator-header{
+  margin-left: 2rem;
+}
+.calculor-container{
+  grid-template-columns: repeat(1, 1fr);
+  gap: 3rem;
+}
+
+.team-group{
+  grid-template-columns: repeat(1, 1fr);
+
+}
+.single-team{
+  width: 30rem;
+  height: 22rem;
+
+}
+.footer-container{
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
 }
