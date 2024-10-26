@@ -1,82 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miama');
-h1,h2,h3,h4,h5,h6, p{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
-body{
+body {
   margin: 0;
 }
 
-section{
+section {
   margin-top: 5rem;
 }
 
 .inter-font {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
-.miama-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.miama-font {
   font-family: 'Miama', sans-serif;
 }
 
 
 
-.color-bg-01{
+.color-bg-01 {
   background-color: #000000;
 
 }
-.color-bg-02{
-  background-color: rgba(255,255,255,0.1);
+
+.color-bg-02 {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
-.color-01{
+.color-01 {
   color: white;
 }
 
-.color-02{
+.color-02 {
   color: #E6533C;
 }
 
-.width-73{
+.width-73 {
   width: 73.61%;
   margin: 0 auto;
 }
 
-.d-flex{
+.d-flex {
   display: flex;
 }
 
-.paragraph-style-01{
+.paragraph-style-01 {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
-  color: rgba(255,255, 255,0.5);
+  color: rgba(255, 255, 255, 0.5);
   margin-top: 1rem;
 }
 
-.text-align-left{
+.text-align-left {
   text-align: left;
 }
-.text-align-center{
+
+.text-align-center {
   text-align: center;
 }
 
-.title{
+.title {
   font-size: 3rem;
   font-weight: 900;
 
 }
 
-.section-title{
+.section-title {
   margin-top: 5rem;
   margin-bottom: 3.75rem;
 }
 
-.btn-primary{
-  background: rgb(230,83,60);
+.btn-primary {
+  background: rgb(230, 83, 60);
   padding: 16px 40px;
   font-weight: 600;
   font-size: 1.1rem;
@@ -85,59 +95,62 @@ section{
   color: #ffffff;
 }
 
-.btn-download{
-  background:none;
+.btn-download {
+  background: none;
   padding: 16px 40px;
   font-weight: 600;
   font-size: 1.1rem;
   border-radius: 42px;
-  border: 1px solid rgb(255,255,255);
+  border: 1px solid rgb(255, 255, 255);
   color: #ffffff;
 }
-header{
-  background: linear-gradient(180.00deg, rgb(17,17,17),rgba(119,119,119,0) 100%);
-} 
 
-.navbar{
+header {
+  background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
+.navbar {
   justify-content: space-between;
   align-items: center;
   padding-top: 4rem;
 }
-.logo{
+
+.logo {
   font-weight: 800;
   font-size: 2rem;
   font-style: italic;
 }
 
 
-.nav-menu ul{
+.nav-menu ul {
   gap: 1rem;
 }
 
 
-.nav-menu ul li{
+.nav-menu ul li {
   list-style: none;
   padding: 8px 20px;
   border-radius: 46px;
-  }
+}
 
-.nav-menu ul li:hover{
+.nav-menu ul li:hover {
   background-color: #E6533C;
 
-  
+
 }
-.nav-menu ul li a{
+
+.nav-menu ul li a {
   text-decoration: none;
   color: white;
   font-size: 1.1rem;
 }
 
-.banner-area{
+.banner-area {
   gap: 10rem;
 }
 
 
-.banner-h3{
+.banner-h3 {
   font-size: 5rem;
   font-weight: 900;
   line-height: 110%;
@@ -145,17 +158,17 @@ header{
   margin-bottom: 1.5rem;
 }
 
-.shape{
+.shape {
   font-size: 9rem;
   font-weight: 400;
 }
 
-.btn-group{
+.btn-group {
   gap: 1rem;
   margin-top: 1.75rem;
 }
 
-.circle{
+.circle {
   width: 2rem;
   height: 2rem;
   background: #E6533C;
@@ -163,30 +176,32 @@ header{
   border: none;
 }
 
-.box-01 h4{
+.box-01 h4 {
   font-size: 2.5rem;
   font-weight: 900;
-  color: rgba(255,255, 255,0.65);
+  color: rgba(255, 255, 255, 0.65);
 }
 
-.banner-image{
-  width: 100%;
+.banner-image>img {
+  width: 73.61%;
 }
-.box-01, .box-02{
-  border: 1px solid rgba(255,255,255,0.1);
+
+.box-01,
+.box-02 {
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   backdrop-filter: blur(20px);
-  background: rgba(48,48,48,0.54);
+  background: rgba(48, 48, 48, 0.54);
   padding: 20px 23px;
 }
 
-.box-01{
+.box-01 {
   width: 8.5rem;
-  margin-top: -475px;
-  margin-left: 200px;
+  margin-top: -400px;
+  margin-left: 195px;
 }
 
-.box-02{
+.box-02 {
   align-items: center;
   gap: 8px;
   width: 10rem;
@@ -194,119 +209,129 @@ header{
   margin-left: -125px;
 }
 
-.box-01 p{
+.box-01 p {
   font-size: 0.8rem;
   font-weight: 400;
 }
 
-.box-02 h4{
+.box-02 h4 {
   font-size: 1.5rem;
   color: #FAFAF9;
   font-weight: 900;
 }
 
-.box-02 p{
-  color: rgba(239,237, 232,0.65);
+.box-02 p {
+  color: rgba(239, 237, 232, 0.65);
   font-size: 1rem;
   font-weight: 400;
 
 
 }
 
-.habit_area{
+.habit_area {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.5rem;
 }
 
-.single_habit{
+.single_habit {
   flex-direction: column;
   align-items: center;
 }
-.single_habit img{
+
+.single_habit img {
   border-radius: 500px;
   width: 11rem;
   height: 11rem;
   margin-bottom: 1.5rem;
 }
-.single_habit h5{
+
+.single_habit h5 {
   font-size: 1.125rem;
   font-weight: 600;
 }
 
-.single_habit>p{
+.single_habit>p {
   margin-top: 0.25rem;
 }
-.join-section{
+
+.join-section {
   justify-content: space-between;
   border-radius: 1.25rem;
-  background: rgb(34,34,34);
+  background: rgb(34, 34, 34);
   padding: 2.5rem 2rem 2.5rem 3.375rem;
 
 }
-.join-text-btn{
+
+.join-text-btn {
   width: 44%;
 }
-.join-text-btn p{
+
+.join-text-btn p {
   margin-bottom: 2rem;
 }
-.img-container{
+
+.img-container {
   width: 40%;
   overflow: hidden;
   border-radius: 18px
 }
-.join-img{
+
+.join-img {
   width: 100%;
   transform: scale(3) translatey(38px) translateX(-45px);
- 
+
 }
 
 
 
 
 
-.calculator-header{
+.calculator-header {
   margin-left: 22rem;
   margin-bottom: 5rem;
 }
 
 
-.calculor-container{
+.calculator-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
-.bmi-h3{
+.bmi-h3 {
   font-size: 1.75rem;
   font-weight: 900;
 
 }
 
-.table>table{
+.table>table {
   border-collapse: collapse;
   margin-top: 3.25rem;
 }
-.table>table th,td
-{
-  border: 1px solid rgba(255,255,255,0.1);
+
+.table>table th,
+td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 1rem 2rem;
 }
-.table>table th{
+
+.table>table th {
   text-align: left;
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
   font-size: 1rem;
   font-weight: 500;
 }
-.table>table>tr{
+
+.table>table>tr {
   width: 10rem;
 
 
 }
 
-.table>table td{
+.table>table td {
   font-size: 1rem;
   font-weight: 400;
-  color: rgba(255,255, 255,0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .calculator-input-field {
@@ -316,21 +341,22 @@ header{
   margin: 2rem 0;
 }
 
-.calculator-input-field input, 
-.calculator-input-field select{
+.calculator-input-field input,
+.calculator-input-field select {
   width: 100%;
   height: 3rem;
   border-radius: 0.5rem;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   border: none;
   font-size: 1rem;
   font-weight: 400;
-  color: rgba(255,255, 255,0.6);
+  color: rgba(255, 255, 255, 0.6);
   padding-left: 0.5rem;
   box-sizing: border-box;
 }
+
 .calculator-input-field select>option {
-  color: rgba(255,255, 255,0.6);
+  color: rgba(255, 255, 255, 0.6);
   padding-left: 0.5rem;
 
 
@@ -338,7 +364,7 @@ header{
 }
 
 .input-5 {
-	grid-column: span 2;
+  grid-column: span 2;
 }
 
 
@@ -346,152 +372,202 @@ header{
 
 
 
-.team-group{
+.team-group {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
   padding: 1rem;
   border-radius: 18px;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   margin-top: 3.5rem;
   margin-bottom: 5.5rem;
 }
 
-.single-team{
+.single-team {
   width: 19rem;
   height: 17rem;
   position: relative;
 
 }
 
-.single-team img{
+.single-team img {
   width: 100%;
   height: 100%;
   border-radius: 18px;
 }
 
-.single-team h4{
+.single-team h4 {
   position: absolute;
   bottom: 30px;
   left: 10px;
 }
-.single-team p{
+
+.single-team p {
   position: absolute;
   bottom: 10px;
   left: 10px;
 
 }
 
-footer{
+footer {
   padding-top: 4rem;
   padding-bottom: 2rem;
 }
-.footer-container{
+
+.footer-container {
   display: grid;
   grid-template-columns: 2fr repeat(2, 1fr);
   gap: 6rem;
   margin-bottom: 5rem;
 }
 
-.footer-logo{
+.footer-logo {
   font-weight: 800;
   font-size: 4rem;
   font-style: italic;
 }
-.footer-menu{
 
-}
+.footer-menu {}
 
-.footer-menu h4{
+.footer-menu h4 {
   font-weight: 700;
   font-size: 2rem;
 
 }
 
-.footer-menu ul{
+.footer-menu ul {
   margin-left: 0;
   padding-left: 0;
 }
-.footer-menu ul li{
+
+.footer-menu ul li {
   list-style: none;
   margin-bottom: 1rem;
 
 }
+
 .footer-menu ul li a {
-  text-decoration:none;
-  color: rgba(255,255,255,0.5);
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
   font-size: 1.2rem;
 
 }
 
-.line{
-  border: 2px solid rgba(255,255,255,0.1);
+.line {
+  border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
-.margin-top{
+.margin-top {
   margin-top: 5rem;
 }
 
-.calculator-bg{
+.calculator-bg {
   padding: 3rem 0;
 }
 
+.menu-bar {
+  display: none;
+}
 
 
 /* responsive design */
 
 @media screen and (max-width:576px) {
-  
-.width-73{
-  width: 90%;
-}
-.banner-area{
-  flex-direction: column;
-}
-.banner-image-area{
-  margin-left: 8rem;
-  margin-bottom: 5rem;
-}
-.habit_area{
-  grid-template-columns: repeat(1, 1fr);
-  gap: 3rem;
-}
 
-.join-section{
-  flex-direction: column;
-}
-.join-text-btn, .img-container{
-  width: 100%;
-}
-.join-img{
-  transform: none;
-}
-.join-text-btn>.btn-primary{
-  padding: 1.5rem 11rem;
-  margin-bottom: 3rem;
-}
+  .btn-primary{
+ 
+      padding: 0px 16px;
 
-.calculator-header{
-  margin-left: 2rem;
-}
-.calculor-container{
-  grid-template-columns: repeat(1, 1fr);
-  gap: 3rem;
-}
+  }
+  .width-73 {
+    width: 90%;
+  }
 
-.team-group{
-  grid-template-columns: repeat(1, 1fr);
+  .banner-area {
+    flex-direction: column;
+  }
 
-}
-.single-team{
-  width: 30rem;
-  height: 22rem;
+  .banner-image-area {
+    margin-left: 8rem;
+  }
 
-}
-.footer-container{
-  grid-template-columns: repeat(1, 1fr);
-  gap: 2rem;
-  margin-bottom: 2rem;
-}
+  .habit_area {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+
+  .join-section {
+    flex-direction: column;
+  }
+
+  .join-text-btn,
+  .img-container {
+    width: 100%;
+  }
+
+  .join-img {
+    transform: none;
+  }
+
+  .join-text-btn>.btn-primary {
+    padding: 1.5rem 6rem;
+    margin-bottom: 3rem;
+  }
+
+  .calculator-header {
+    margin-left: 2rem;
+  }
+
+  .calculator-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+  .calculate-btn>button{
+    padding: 1.2rem 2.5rem;
+
+  }
+
+  .team-group {
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+
+  .single-team {
+    width: 30rem;
+    height: 22rem;
+
+  }
+
+  .single-team>img{
+    width: 73.61%;}
+
+  .footer-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .menu-bar {
+    display: block;
+    font-size: 2rem;
+  }
+
+  .copyright-section {
+    text-align: left;
+    margin-left: 2rem;
+  }
+
+  .box-01{
+    margin-top: -340px;
+    margin-left: 100px;
+  }
+  .box-01, .box-02{
+    padding: 5px 14px;
+  }
+
 }
